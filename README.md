@@ -41,17 +41,18 @@ This repository is to demostrate how to quickly bootstrap a new EKS cluster by u
     terraform destroy
     ```
 
-- For **CDK** lovers, please `cd cdk`. (coming soon)
+- For **CDK** lovers, please `cd cdk`.
 
   - Create cluster
 
     ```
-    cdk synth
-    cdk deploy
+    npm install
+    npx cdk synth
+    npx cdk deploy
     ```
 
   - Delete cluster
 
     ```
-    cdk destroy
+    npx cdk destroy
     ```
